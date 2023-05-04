@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/routes', methods=['GET'])
 def distancia():
         
-    api_key = 'AIzaSyDPMH3JfWvPx7ydyYbqey7u6T5P68c8nM4'
+    api_key = '<YOUR_API_KEY>'
 
     rua = request.args['rua']
     num = request.args['num']
